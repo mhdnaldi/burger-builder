@@ -1,12 +1,13 @@
 import React, { PureComponent } from "react";
-import Layout from "./containers/Layout/Layout";
+import Layout from "./components/Layout/Layout";
+import BurgerBuilder from "./containers/BurgerBuilder/BurgerBuilder";
 
 class App extends PureComponent {
   render() {
     return (
       <div>
         <Layout>
-          <h1>Test</h1>
+          <BurgerBuilder />
         </Layout>
       </div>
     );
