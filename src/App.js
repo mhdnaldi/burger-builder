@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
-import Layout from "./components/Layout/Layout";
-import BurgerBuilder from "./containers/BurgerBuilder/BurgerBuilder";
+import Layout from "./containers/BurgerBuilder/Layout/Layout";
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuiler';
 
 class App extends PureComponent {
   render() {

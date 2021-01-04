@@ -1,0 +1,27 @@
+.DrawerToggle {
+  width: 4%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.DrawerToggle div {
+  background-color: rgb(12, 8, 34);
+  height: 7px;
+  width: 100%;
+}
+
+@media (max-width: 499px) {
+  .DrawerToggle {
+    width: 14%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .DrawerToggle div {
+    background-color: rgb(12, 8, 34);
+    height: 7px;
+  }
+}
